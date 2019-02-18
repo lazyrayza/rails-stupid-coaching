@@ -1,0 +1,21 @@
+$gray: #F4F4F4;
+
+body {
+  background: $gray; // Using this variable
+}
+.banner {
+  background: red;
+  h1 {
+    font-size: 50px;
+  }
+}
+a {
+  color: blue;
+  &:hover {
+    color: black;
+  }
+}
+
+.div {
+  border: 1px, solid;
+}
